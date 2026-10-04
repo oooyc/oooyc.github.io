@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chao Ouyang</title>
+<meta name="description" content="Chao Ouyang, M.S. student at Wuhan University working on LLM-based multi-agent systems. Looking for Ph.D. positions starting in Fall 2027.">
+<style>
+:root{
+  --ground:#FFFFFF; --ink:#1B2026; --muted:#5A646F; --faint:#858E98; --rule:#E0E4E8;
+  --accent:#0A328C; --accent-hover:#06235F;
+  --serif:"Palatino Linotype","Book Antiqua",Palatino,"TeX Gyre Pagella","URW Palladio L",Georgia,"Songti SC","SimSun",serif;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    color-scheme:dark;
+    --ground:#121519; --ink:#E4E7EB; --muted:#A1AAB4; --faint:#79828C; --rule:#2B3138;
+    --accent:#93B6F2; --accent-hover:#BCD1F7;
+  }
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--ground);color:var(--ink);font:17px/1.62 var(--serif);padding:56px 20px 64px}
+.page{max-width:760px;margin:0 auto}
+a{color:var(--accent);text-decoration:none;border-bottom:1px solid transparent}
+a:hover{color:var(--accent-hover);border-bottom-color:currentColor}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+header{margin-bottom:8px}
+h1{margin:0;font-size:34px;line-height:1.15;font-weight:700;letter-spacing:.01em}
+h1 .zh{margin-left:12px;font-size:22px;font-weight:400;letter-spacing:.1em;color:var(--muted)}
+.affil{margin:8px 0 0;color:var(--muted)}
+.contact{margin:14px 0 0;display:flex;flex-wrap:wrap;gap:4px 20px;font-variant:small-caps;letter-spacing:.06em}
+h2{margin:40px 0 12px;padding-bottom:4px;border-bottom:1px solid var(--rule);font-size:17px;font-weight:700;font-variant:small-caps;letter-spacing:.09em}
+p{margin:0 0 12px}
+.seeking{margin-top:4px}
+.news,.pubs{list-style:none;margin:0;padding:0;display:grid}
+.news{gap:6px}
+.news li{display:grid;grid-template-columns:5.8em 1fr;gap:12px}
+.news time,.when{color:var(--muted);font-style:italic;font-variant-numeric:tabular-nums}
+.pubs{gap:14px}
+.pubs li{display:grid;grid-template-columns:3.3em 1fr;gap:6px}
+.pubs .tag{font-weight:700;color:var(--muted);font-variant-numeric:tabular-nums}
+.pubs .me,.pubs .title{font-weight:700}
+.pubs .venue{font-style:italic}
+.pubs .status{color:var(--muted)}
+.pubs .plinks{display:inline-flex;gap:12px;margin-left:6px;font-variant:small-caps;letter-spacing:.05em}
+.note{font-size:15px;color:var(--muted);margin-top:12px}
+.entries{display:grid;gap:16px}
+.row{display:flex;flex-wrap:wrap;justify-content:space-between;gap:0 16px}
+.org{font-weight:700}
+.role{font-style:italic}
+.where{color:var(--muted)}
+.desc{margin:2px 0 0}
+footer{margin-top:48px;font-size:14px;color:var(--faint)}
+@media (max-width:560px){
+  body{font-size:16px;padding:36px 16px 48px}
+  h1{font-size:28px}
+  h1 .zh{display:block;margin:6px 0 0;font-size:19px}
+  .news li{grid-template-columns:1fr;gap:0}
+  .pubs li{grid-template-columns:1fr;gap:0}
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+<header>
+  <h1>Chao Ouyang<span class="zh" lang="zh-CN">欧阳钞</span></h1>
+  <p class="affil">M.S. student, Control Science and Engineering, Wuhan University</p>
+  <nav class="contact" aria-label="Contact">
+    <a href="mailto:2020302191186@whu.edu.cn">Email</a>
+    <a href="https://github.com/oooyc">GitHub</a>
+    <a href="cv.pdf">CV</a>
+  </nav>
+</header>
+
+<main>
+<section aria-labelledby="about">
+  <h2 id="about">About</h2>
+  <p>I am a master's student in Control Science and Engineering at Wuhan University, advised by Prof. Jun Zhang, and a remote research intern at the GLINT Lab, Nanyang Technological University, advised by Prof. Wenya Wang. I received my B.S. in Automation from Wuhan University in 2024.</p>
+  <p>I work on LLM-based multi-agent systems: how agents communicate, how they are organized, and how to optimize the system as a whole rather than agent by agent. I am also interested in representation learning, mainly through contrastive learning.</p>
+  <p class="seeking"><strong>I am looking for Ph.D. positions starting in Fall 2027.</strong></p>
+</section>
+
+<section aria-labelledby="news">
+  <h2 id="news">News</h2>
+  <ul class="news">
+    <li><time datetime="2026-09">Sep 2026</time><span>CacheMAS was accepted at NeurIPS 2026.</span></li>
+    <li><time datetime="2026-06">Jun 2026</time><span>Started a remote research internship at the GLINT Lab, NTU, with Prof. Wenya Wang.</span></li>
+  </ul>
+</section>
+
+<section aria-labelledby="publications">
+  <h2 id="publications">Publications</h2>
+  <ul class="pubs">
+    <li>
+      <span class="tag">[S.1]</span>
+      <div><span class="me">Chao Ouyang</span>, Qingyuan Liu, Haozhen Zhang, Yuyang Bai, Wenya Wang, and Jun Zhang.
+        <span class="title">Training Skillful Orchestrators for Dynamic Workflows by Separating Skill from Luck.</span>
+        <span class="status">In submission to ACL Rolling Review (ARR), 2026.</span></div>
+    </li>
+    <li>
+      <span class="tag">[C.1]</span>
+      <div><span class="me">Chao Ouyang</span>, Yuyang Bai, Jun Zhang*, Tianlu Gao, Yuxin Dai, Peidong Xu, and David Wenzhong Gao.
+        <span class="title">CacheMAS: Cache Communication for Single-Pass, Jointly-Optimized Multi-Agent Systems.</span>
+        In <span class="venue">Advances in Neural Information Processing Systems</span> (NeurIPS), 2026.
+        <!-- Add once the camera-ready PDF is in papers/:
+             <span class="plinks"><a href="papers/cachemas_neurips2026.pdf">PDF</a></span> --></div>
+    </li>
+    <li>
+      <span class="tag">[C.2]</span>
+      <div><span class="me">Chao Ouyang</span>, Yuyang Bai, Jun Zhang*, Tianlu Gao, Jun Hao, Lijun Kong, and David Wenzhong Gao.
+        <span class="title">DisCo DETR: Distance-aware Multi-view Contrastive Learning for DETR Pre-training.</span>
+        In <span class="venue">Proceedings of the AAAI Conference on Artificial Intelligence</span> (AAAI), 2026.
+        <span class="plinks"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/39650">Paper</a><a href="https://github.com/oooyc/DisCo_DETR">Code</a></span></div>
+    </li>
+    <li>
+      <span class="tag">[J.1]</span>
+      <div><span class="me">Chao Ouyang</span>, Jie Zhang, Yuyang Bai, Yan Xu, Jun Zhang*, Yun Su, Tianlu Gao, and Yuxin Dai.
+        <span class="title">Cluster-Awareness and Fine-Grained Feedback Driven Optimization Method for LLM-based Multi-Agent Systems.</span>
+        <span class="venue">Computer Engineering and Applications</span>, 2025.</div>
+    </li>
+  </ul>
+  <p class="note">* Corresponding author. S = in submission, C = conference, J = journal.</p>
+</section>
+
+<section aria-labelledby="experience">
+  <h2 id="experience">Experience</h2>
+  <div class="entries">
+    <div>
+      <div class="row"><span class="org">GLINT Lab, Nanyang Technological University</span><span class="when">Jun 2026 – present</span></div>
+      <div class="row"><span class="role">Research Intern (remote), advised by Prof. Wenya Wang</span><span class="where">Singapore</span></div>
+      <p class="desc">Orchestrators that draft, run and revise multi-agent workflows, trained with credit assignment that separates the orchestrator's skill from the luck of subagent returns.</p>
+    </div>
+    <div>
+      <div class="row"><span class="org">School of Electrical Engineering and Automation, Wuhan University</span><span class="when">Sep 2023 – present</span></div>
+      <div class="row"><span class="role">Research Assistant, advised by Prof. Jun Zhang</span><span class="where">Wuhan, China</span></div>
+      <p class="desc">CacheMAS (single-pass multi-agent systems that communicate through the KV cache), CAFG (automated design of LLM multi-agent systems) and DisCo DETR (self-supervised DETR pre-training).</p>
+    </div>
+    <div>
+      <div class="row"><span class="org">Baidu Inc.</span><span class="when">Jul 2025 – Sep 2025</span></div>
+      <div class="row"><span class="role">Algorithm Intern</span><span class="where">Beijing, China</span></div>
+      <p class="desc">Video pipelines for highlight-clip generation and for subtitle erasure and translation.</p>
+    </div>
+  </div>
+</section>
+
+<section aria-labelledby="education">
+  <h2 id="education">Education</h2>
+  <div class="entries">
+    <div>
+      <div class="row"><span class="org">Wuhan University</span><span class="when">Sep 2024 – Jun 2027 (expected)</span></div>
+      <div class="row"><span class="role">M.S. in Control Science and Engineering</span><span class="where">Advisor: Prof. Jun Zhang</span></div>
+    </div>
+    <div>
+      <div class="row"><span class="org">Wuhan University</span><span class="when">Sep 2020 – Jun 2024</span></div>
+      <div class="row"><span class="role">B.S. in Automation</span><span class="where">GPA 3.83/4.00, ranked 9/90</span></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>Last updated October 2026.</footer>
+
+</div>
+</body>
+</html>
