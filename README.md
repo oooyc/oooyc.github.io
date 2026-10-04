@@ -8,3 +8,6 @@ Source of https://oooyc.github.io, the homepage of Chao Ouyang.
 - `papers/`: paper PDFs linked from the page. Only versions that may be shared publicly go here
   (for CacheMAS, the de-anonymized camera-ready).
 - `.nojekyll`: tells GitHub Pages to serve the files as they are.
+
+Content rules set by the candidate on 2026-10-04: publications carry no `[C.1]`/`[J.1]` style labels, and papers still
+in submission (the ARR orchestrator paper) stay off this page. The CV keeps both.

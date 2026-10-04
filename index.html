@@ -38,11 +38,8 @@ p{margin:0 0 12px}
 .news li{display:grid;grid-template-columns:5.8em 1fr;gap:12px}
 .news time,.when{color:var(--muted);font-style:italic;font-variant-numeric:tabular-nums}
 .pubs{gap:14px}
-.pubs li{display:grid;grid-template-columns:3.3em 1fr;gap:6px}
-.pubs .tag{font-weight:700;color:var(--muted);font-variant-numeric:tabular-nums}
 .pubs .me,.pubs .title{font-weight:700}
 .pubs .venue{font-style:italic}
-.pubs .status{color:var(--muted)}
 .pubs .plinks{display:inline-flex;gap:12px;margin-left:6px;font-variant:small-caps;letter-spacing:.05em}
 .note{font-size:15px;color:var(--muted);margin-top:12px}
 .entries{display:grid;gap:16px}
@@ -57,7 +54,6 @@ footer{margin-top:48px;font-size:14px;color:var(--faint)}
   h1{font-size:28px}
   h1 .zh{display:block;margin:6px 0 0;font-size:19px}
   .news li{grid-template-columns:1fr;gap:0}
-  .pubs li{grid-template-columns:1fr;gap:0}
 }
 </style>
 </head>
@@ -93,35 +89,20 @@ footer{margin-top:48px;font-size:14px;color:var(--faint)}
 <section aria-labelledby="publications">
   <h2 id="publications">Publications</h2>
   <ul class="pubs">
-    <li>
-      <span class="tag">[S.1]</span>
-      <div><span class="me">Chao Ouyang</span>, Qingyuan Liu, Haozhen Zhang, Yuyang Bai, Wenya Wang, and Jun Zhang.
-        <span class="title">Training Skillful Orchestrators for Dynamic Workflows by Separating Skill from Luck.</span>
-        <span class="status">In submission to ACL Rolling Review (ARR), 2026.</span></div>
-    </li>
-    <li>
-      <span class="tag">[C.1]</span>
-      <div><span class="me">Chao Ouyang</span>, Yuyang Bai, Jun Zhang*, Tianlu Gao, Yuxin Dai, Peidong Xu, and David Wenzhong Gao.
-        <span class="title">CacheMAS: Cache Communication for Single-Pass, Jointly-Optimized Multi-Agent Systems.</span>
-        In <span class="venue">Advances in Neural Information Processing Systems</span> (NeurIPS), 2026.
-        <span class="plinks"><a href="papers/cachemas_neurips2026.pdf">PDF</a></span></div>
-    </li>
-    <li>
-      <span class="tag">[C.2]</span>
-      <div><span class="me">Chao Ouyang</span>, Yuyang Bai, Jun Zhang*, Tianlu Gao, Jun Hao, Lijun Kong, and David Wenzhong Gao.
-        <span class="title">DisCo DETR: Distance-aware Multi-view Contrastive Learning for DETR Pre-training.</span>
-        In <span class="venue">Proceedings of the AAAI Conference on Artificial Intelligence</span> (AAAI), 2026.
-        <span class="plinks"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/39650">Paper</a><a href="https://github.com/oooyc/DisCo_DETR">Code</a></span></div>
-    </li>
-    <li>
-      <span class="tag">[J.1]</span>
-      <div><span class="me">Chao Ouyang</span>, Jie Zhang, Yuyang Bai, Yan Xu, Jun Zhang*, Yun Su, Tianlu Gao, and Yuxin Dai.
-        <span class="title">Cluster-Awareness and Fine-Grained Feedback Driven Optimization Method for LLM-based Multi-Agent Systems.</span>
-        <span class="venue">Computer Engineering and Applications</span>, 2025.
-        <span class="plinks"><a href="papers/cafg_cea2025.pdf">PDF</a></span></div>
-    </li>
+    <li><span class="me">Chao Ouyang</span>, Yuyang Bai, Jun Zhang*, Tianlu Gao, Yuxin Dai, Peidong Xu, and David Wenzhong Gao.
+      <span class="title">CacheMAS: Cache Communication for Single-Pass, Jointly-Optimized Multi-Agent Systems.</span>
+      In <span class="venue">Advances in Neural Information Processing Systems</span> (NeurIPS), 2026.
+      <span class="plinks"><a href="papers/cachemas_neurips2026.pdf">PDF</a></span></li>
+    <li><span class="me">Chao Ouyang</span>, Yuyang Bai, Jun Zhang*, Tianlu Gao, Jun Hao, Lijun Kong, and David Wenzhong Gao.
+      <span class="title">DisCo DETR: Distance-aware Multi-view Contrastive Learning for DETR Pre-training.</span>
+      In <span class="venue">Proceedings of the AAAI Conference on Artificial Intelligence</span> (AAAI), 2026.
+      <span class="plinks"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/39650">Paper</a><a href="https://github.com/oooyc/DisCo_DETR">Code</a></span></li>
+    <li><span class="me">Chao Ouyang</span>, Jie Zhang, Yuyang Bai, Yan Xu, Jun Zhang*, Yun Su, Tianlu Gao, and Yuxin Dai.
+      <span class="title">Cluster-Awareness and Fine-Grained Feedback Driven Optimization Method for LLM-based Multi-Agent Systems.</span>
+      <span class="venue">Computer Engineering and Applications</span>, 2025.
+      <span class="plinks"><a href="papers/cafg_cea2025.pdf">PDF</a></span></li>
   </ul>
-  <p class="note">* Corresponding author. S = in submission, C = conference, J = journal.</p>
+  <p class="note">* Corresponding author.</p>
 </section>
 
 <section aria-labelledby="experience">
@@ -130,7 +111,7 @@ footer{margin-top:48px;font-size:14px;color:var(--faint)}
     <div>
       <div class="row"><span class="org">GLINT Lab, Nanyang Technological University</span><span class="when">Jun 2026 – present</span></div>
       <div class="row"><span class="role">Research Intern (remote), advised by Prof. Wenya Wang</span><span class="where">Singapore</span></div>
-      <p class="desc">Orchestrators that draft, run and revise multi-agent workflows, trained with credit assignment that separates the orchestrator's skill from the luck of subagent returns.</p>
+      <p class="desc">Research on LLM-based multi-agent systems.</p>
     </div>
     <div>
       <div class="row"><span class="org">School of Electrical Engineering and Automation, Wuhan University</span><span class="when">Sep 2023 – present</span></div>
